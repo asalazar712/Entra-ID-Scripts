@@ -1,8 +1,8 @@
 
 ###############################################################################################
 #Version 1
-$NewGroupName = "PERM_EXC_E2E_GBL004"
-$SourceGroupName = "User_Exclusion_MFA"
+$NewGroupName = "<groupname1>"
+$SourceGroupName = "<groupname2>"
 
 
 new-azureadgroup -displayName $NewGroupName -SecurityEnabled $true -MailEnabled $false -MailNickName "notset"
